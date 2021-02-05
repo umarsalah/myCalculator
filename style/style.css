@@ -1,0 +1,85 @@
+body {
+    background-image: url("https://bsp-static.playbill.com/dims4/default/8ac000f/2147483647/thumbnail/970x546/quality/90/?url=http%3A%2F%2Fpb-asset-replication.s3.amazonaws.com%2F0f%2F02%2F828934424adb838d685d6cea1111%2Fmath-quiz-teaser.jpg");
+}
+
+.container {
+    margin: 80px auto;
+    width: 390px;
+    height: 450px;
+    box-shadow: 3px 3px 10px #d4d4d4d8, -3px -3px 10px rgb(255, 255, 255);
+}
+
+.screen {
+    margin: 30px;
+}
+
+#screen {
+    margin: 20px 0px 20px -5px;
+    padding: 15px;
+    width: 290px;
+    height: 35px;
+    border-radius: 4px;
+    position: absolute;
+    font-weight: bold;
+    font-size: xx-large;
+    color: rgb(255, 238, 0);
+    background: rgb(119, 18, 18);
+    -moz-appearance: textfield;
+    -webkit-appearance: textfield;
+}
+
+.inputs {
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+button {
+    border-radius: 10%;
+    margin: 20px 0 0 5px;
+    width: 82px;
+    height: 42px;
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+    transition-duration: .5s;
+    background-color: #e0dbdb67;
+}
+
+.number {
+    color: #dbdf14;
+    background: rgb(119, 18, 18);
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.number:active {
+    background-color: rgb(240, 70, 8);
+}
+
+.money {
+    font-weight: bolder;
+    font-size: 16px;
+    color: rgb(119, 18, 18);
+    background: #e0dbdb67
+}
+
+.operator {
+    font-weight: bolder;
+    font-size: x-large;
+    background: #3a7785;
+}
+
+.remove {
+    font-weight: bolder;
+    font-size: x-large;
+    background-color: red;
+    color: white;
+}
+
+.equal {
+    font-weight: bolder;
+    font-size: x-large;
+    background: #3a7785;
+}
