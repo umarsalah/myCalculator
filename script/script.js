@@ -91,21 +91,21 @@ function convert(operation) {
     switch (operation) {
 
         case 'sh-us':
-            total *= 0.31;
+            firstNum *= 0.31;
             break;
         case 'us-sh':
-            total /= 0.31;
+            firstNum /= 0.31;
             break;
         case 'sh-eu':
-            total *= 0.25;
+            firstNum *= 0.25;
             break;
         case 'eu-sh':
-            total /= 0.25;
+            firstNum /= 0.25;
             break;
     }
-    myScreen.value = total;
+    myScreen.value = firstNum;
     secondNum = '';
-    firstNum = total;
+    //firstNum = total;
     //total = 0;
     tempOperation = undefined;
 }
